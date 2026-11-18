@@ -1,5 +1,7 @@
 # Polymarket Paper Market Maker
 
-A Python prototype for studying prediction-market market making using public data and a paper-only execution simulator. It includes order book replay, inventory aware quotes, simulated queue-based fills, and performance reports. 
+A Python simulator for studying market making with public market data and fictional trading sessions. It replays order books and trades, produces inventory aware quotes, simulates fills, and reports paper performance.
 
-Download and extract `polymarket-source.zip` to access the source, setup instructions, synthetic example session, tests, and documentation. The project README and `docs/` directory are inside the archive under `polymarket-paper-market-maker/`.
+Download and extract `polymarket-source.zip` for the source, setup instructions, tests, and documentation. The project does not place live orders or access a wallet.
+
+A seeded comparison generates matching sessions for a midpoint baseline and an inventory aware strategy. Results depend on the generated data and execution assumptions. See the included README and validation notes for commands and limitations.
